@@ -1,0 +1,17 @@
+.fp_btn__arrow {
+    border-radius: 5px;
+    border: var(--gray-light);
+
+    cursor: pointer;
+}
+
+.fp__dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fp_textPage{
+    font-weight: 600;
+    margin: var(--gutter);
+}

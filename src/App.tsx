@@ -1,8 +1,6 @@
-import React from "react";
-import RechartsExample from "./components/RechartsExample";
-import ChartJsExample from "./components/ChartJsExample";
 import Header from "./components/Header";
-import GrowthStage from "./components/ChartJsExample";
+import GrowthStage from "./components/GrowthStage";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -11,10 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <div className="container">
-        <ChartJsExample />
+        <GrowthStage />
       </div>
-      {/* <GrowthStage /> */}
-      {/* <RechartsExample /> */}
+      <Footer />
     </div>
   );
 }

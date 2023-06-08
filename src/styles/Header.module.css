@@ -1,3 +1,4 @@
 .fp__header {
-    background-color: aqua;
+    background-color: var(--gray-dark);
+    margin-bottom: 2rem;
 }

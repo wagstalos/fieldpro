@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../styles/Pagination.module.css";
 
 interface PaginationItemProps {
   disabled: boolean;
@@ -12,7 +13,11 @@ const PaginationItem: React.FC<PaginationItemProps> = ({
   children,
 }) => {
   return (
-    <button onClick={onClick} disabled={disabled}>
+    <button
+      className={styles.fp_btn__arrow}
+      onClick={onClick}
+      disabled={disabled}
+    >
       {children}
     </button>
   );

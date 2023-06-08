@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 import { ChartData, ChartOptions } from "chart.js";
+import styles from "../styles/GrowthStage.module.css";
 
 interface ChartCanvasProps {
   data: DataPoint[];
@@ -39,15 +40,15 @@ const ChartCanvas: React.FC<ChartCanvasProps> = ({ data }) => {
           {
             label: "Precipitation",
             data: precipitation,
-            backgroundColor: "rgba(192, 75, 192, 0.2)",
-            borderColor: "rgba(192, 75, 192, 1)",
+            backgroundColor: "rgba(192, 163, 75, 0.2)",
+            borderColor: "#fdac2a",
             borderWidth: 1,
           },
           {
             label: "NDVI",
             data: ndvi,
-            backgroundColor: "rgba(192, 192, 75, 0.2)",
-            borderColor: "rgba(192, 192, 75, 1)",
+            backgroundColor: "rgba(97, 105, 242, 0.2)",
+            borderColor: "#3b84f2",
             borderWidth: 1,
           },
         ],
@@ -77,7 +78,11 @@ const ChartCanvas: React.FC<ChartCanvasProps> = ({ data }) => {
     }
   }, [data]);
 
-  return <canvas ref={chartRef} width={600} height={300} />;
+  return (
+    <div className={styles.fp__container}>
+      <canvas ref={chartRef} />
+    </div>
+  );
 };
 
 export default ChartCanvas;
