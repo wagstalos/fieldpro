@@ -3,7 +3,7 @@
 Este repositório contém um projeto que utiliza as tecnologias Typescript, ReactJS e ChartJS para criar gráficos interativos em uma aplicação web. Além disso, faz uso das bibliotecas Axios e react-chartjs-2 para facilitar a comunicação com uma API e renderizar os gráficos.
 
 <h1 align="center">
-    <a href="https://wpsgames.com.br/sites/reactjs/portfolio/">🔗 link  do projeto</a>
+    <a href="https://wpsgames.com.br/sites/reactjs/desafios/fieldpro/>🔗 link  do projeto</a>
 </h1>
 
 <h1 align="center">
