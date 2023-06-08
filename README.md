@@ -26,7 +26,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Instale as dependências do projeto utilizando o gerenciador de pacotes npm:
 
-npm install axios
+<a> npm install axios </a>
 
 npm install chart.js
 
