@@ -2,3 +2,7 @@
     max-width: 100%;
     height: 300px;
 }
+
+.fp__title{
+    color: var(--gray-dark);
+}

@@ -1,4 +1,5 @@
 .fp__header {
     background-color: var(--gray-dark);
+    padding: var(--gutter);
     margin-bottom: 2rem;
 }

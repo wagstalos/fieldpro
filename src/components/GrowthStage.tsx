@@ -45,6 +45,7 @@ const GrowthStage: React.FC = () => {
 
   return (
     <div className={styles.fp__container}>
+      <h1 className={styles.fp__title}>GrowthStage</h1>
       <ChartCanvas data={paginatedData} />
       <Pagination
         currentPage={currentPage}
