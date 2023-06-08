@@ -1,17 +1,20 @@
 import React from "react";
 import RechartsExample from "./components/RechartsExample";
 import ChartJsExample from "./components/ChartJsExample";
-//import GrowthStage from "./components/GrowthStage";
+import Header from "./components/Header";
+import GrowthStage from "./components/ChartJsExample";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Filed Pro</h1>
+      <Header />
+      <div className="container">
+        <ChartJsExample />
+      </div>
       {/* <GrowthStage /> */}
-      <RechartsExample />
-      <ChartJsExample />
+      {/* <RechartsExample /> */}
     </div>
   );
 }
