@@ -26,7 +26,8 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Instale as dependências do projeto utilizando o gerenciador de pacotes npm:
 
-<a href="npm install axios"> npm install axios </a>
+<a href="npm install axios"></a>
+ <a href="https://wpsgames.com.br/sites/reactjs/desafios/fieldpro/>🔗 npm install axios </a>
 
 npm install chart.js
 
