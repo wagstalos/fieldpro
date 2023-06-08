@@ -2,9 +2,7 @@
 
 Este repositório contém um projeto que utiliza as tecnologias Typescript, ReactJS e ChartJS para criar gráficos interativos em uma aplicação web. Além disso, faz uso das bibliotecas Axios e react-chartjs-2 para facilitar a comunicação com uma API e renderizar os gráficos.
 
-
-    <a href="https://wpsgames.com.br/sites/reactjs/desafios/fieldpro/>🔗 link  do projeto</a>
-
+[🔗 link  do projeto]([https://reactjs.org/](https://wpsgames.com.br/sites/reactjs/desafios/fieldpro/))
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=ReactJS&color=3498db&style=for-the-badge&logo="/>
@@ -26,10 +24,9 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Instale as dependências do projeto utilizando o gerenciador de pacotes npm:
 
-<a href="npm install axios"></a>
- <a href="https://wpsgames.com.br/sites/reactjs/desafios/fieldpro/>🔗 npm install axios </a>
+```npm install axios```
 
-npm install chart.js
+```npm install chart.js```
 
 
 
